@@ -1,0 +1,53 @@
+.App_Data_container {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  background-color: #ffffff;
+
+  .App_Data {
+    height: fit-content;
+    width: 75%;
+
+    h1 {
+      color: rgb(33, 67, 93);
+      font-size: 22px;
+      margin-bottom: 40px;
+    }
+
+    .App_Data_login {
+      height: fit-content;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+
+      div {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        color: #a6b0cb;
+
+        input {
+          width: 80%;
+          font-size: 18px;
+          padding: 8px;
+          border: 1px solid #a6b0cb;
+          border-radius: 4px;
+          background-color: #fff;
+        }
+      }
+
+      .login_info_terms {
+        flex-direction: row;
+
+        input {
+          width: unset;
+        }
+      }
+    }
+  }
+}
