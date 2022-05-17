@@ -6,6 +6,7 @@ function App() {
   return (
     <Routes>
       <Route exact path="/" element={<LandingPage />} />
+      <Route exact path="/graph" element={<LandingPage />} />
     </Routes>
   );
 }
