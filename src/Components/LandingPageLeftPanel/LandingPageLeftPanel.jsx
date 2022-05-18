@@ -115,7 +115,7 @@ function LandingPageLeftPanel() {
               <FormInput
                 hFor="Number"
                 title="Your phone number"
-                type="text"
+                type="number"
                 name="number"
                 value={loginData.number}
                 handleChange={handleChange}
