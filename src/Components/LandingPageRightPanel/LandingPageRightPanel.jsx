@@ -5,7 +5,7 @@ function LandingPageRightPanel() {
   return (
     <div className={Styles.App_Image_container}>
       <div className={Styles.App_Image}>
-        <img src="https://i.postimg.cc/wM6Kprrd/my-Dash-assignment.png" />
+        <img src="https://i.postimg.cc/KvDSqNyw/1-removebg-preview-1.jpg" />
       </div>
       <div className={Styles.App_Image_text}>
         <h2>Choose a date range</h2>
